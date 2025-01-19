@@ -13,3 +13,9 @@
     For example:
     distribution/Spark_Module_A/part-00000-xxxx.json
     distribution/Spark_Module_B/part-00000-xxxx.json
+## 8. Install spacy (NLP Model)
+    pip install spacy
+    python3 -m spacy download en_core_web_md
+## 9.Run extraction.py
+    python3 extraction.py
+    You will find the extracted data in processed_resumes_A/processed_resumes_A
