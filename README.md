@@ -8,7 +8,7 @@
      (i) Spark_Module_A 
      (ii) Spark_Module_B
 ## 6.Submit the spark job 
-    spark-submit --master local[*] round_robin_distribute.py
+    spark-submit --master local[*] round_robin.py
 ## 7.Spark_Modules folders would contain
     For example:
     distribution/Spark_Module_A/part-00000-xxxx.json
